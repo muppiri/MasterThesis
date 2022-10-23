@@ -1,0 +1,85 @@
+id,joinAlgorithm,Processor,manufacturer,Varient,implementation,citedBy,References
+9,"Sort-Merge Join","CPU",null,null,"yes",141,2
+699,"Hash Join","CPU","Intel","X86","yes",112,17
+986,"Hash Join","CPU",null,null,"yes",7,17
+525,"Hash Join","CPU","Intel","Pentium III","yes",16,33
+623,"Hash & Merge Join","CPU","Intel","Pentium IV","yes",171,24  
+687,"Hash Join","CPU",null,null,"yes",10,14
+50,"Sort-Merge Join","CPU",null,null,"yes",2,10
+56,"Nested Loop Join","CPU",null,null,"yes",2,2
+226,"Nested Loop Join","CPU","Intel","Pentium III","yes",11,24
+519,"Hash Join","CPU","Intel","Pentium","yes",2,4
+47,"Sort-Merge Join","CPU","Intel","Pentium 4","yes",50,32  
+54,"Nested Loop Join","CPU & GPU","Intel : Sun Microsystems & AMD","Pentium4 : Ultra-Sparc III & Opteron","yes",23,27 
+501,"Hash Join","CPU & GPU","Intel & AMD","Xeon : Pentium 4 Prescott &  Opteron","yes",33,29
+502,"Hash Join","CPU","Intel","XEON & Pentium IV","yes",23,16   
+503,"Hash Join","CPU",null,null,"yes",2,13
+220,"Nested-loop & Sort-merge & Hash Join","CPU","Intel","Pentium IV","yes",10,22
+967,"Hash Join","CPU","Intel","Itanium 2","yes",259,35
+969,"Hash Join","CPU","Intel","Xeon Northwood & Core Duo (Yonah) & Pentium 4 Prescott","yes",26,24
+663,"Hash & Merge Join","CPU",null,null,"yes",0,18
+715,"Hash Join","CPU","Intel","Core 2 Quad Q6600","yes",3,11
+958,"Sort & Hash Join","CPU & GPU","Intel & Nvidia","Core i7 965 & 8800GTX","yes",391,39
+959,"Hash Join","CPU","Intel","L2-Cache Chip Multi-Processor CMP( Dual-Core and QuadCore )","yes",4,15
+426,"Hash Join","CPU","Intel & Sun microSystems","Nehalem Xeon X5650 & Sun UltraSPARC T2","yes",317,17
+34,"Sort-Merge Join","CPU","Intel","Xeon(R) X7560","yes",267,25
+396,"Sort-Merge & Hash Join","CPU",null,null,"yes",42,69
+11,"Sort-Merge Join","CPU","Intel","Xeon E5310","yes",5,26
+177,"Hash Join","FPGA","Altera","Stratix IV GX530","yes",73,16
+178,"Hash Join","GPU","NVIDIA","9600 GT","yes",9,13
+179,"Hash Join","CPU","AMD","Opteron 2350 Quad Core","yes",1,21
+376,"Sort-Merge and Hash Join","CPU","AMD","Opteron 6174","yes",0,19
+382,"Hash Join","CPU","Intel","Xeon E7-4850","yes",23,29 
+6,"Nested Loop Join","CPU",null,null,"yes",7,41
+935,"Hash & Sort-merge","CPU","Intel","Sandy Bridge","yes",299,24
+936,"Hash Join","APU","AMD","APU A8-3870K","yes",153,36
+941,"Hash Join","CPU","Intel & AMD & Sun MicroSystems","Nehalem Xeon L5520:Sandy Bridge Xeon E5–2680 & Bulldozer Opteron 6276 & Sun Niagara 2 UltraSPARC T2","yes",319,21
+943,"Hash Join","CPU","Intel","Xeon X7560","yes",62,10
+944,"Hash Join","CPU","Intel","Core 2 Quad Core Q8200","yes",0,7
+2,"Nested Loop & Sort-Merge Join","CPU",null,null,"yes",9,36
+654,"Hash Join","CPU","Intel","duo core E6550","yes",5,20
+929,"Hash Join","CPU","Intel","Sandy Bridge-EP (E5-2665)","yes",90,21
+931,"Hash Join","GPU & CPU","playStation",null,"yes",2,34
+330,"Nested loop(Block) & Hash & Sort-Merge Join","CPU","Intel","Core i5-2400 & Core 2 Q8200","yes",5,18
+338,"Nested loop(Block Index) & Sort-Merge Join & Hash Join","GPU & CPU","Nvidia & Intel","Geforce GTX 980 : GTX Titan & Core i7-3930K : Xeon E5-2640v2","yes",22,27
+339,"Hash Join","GPU","NVIDIA","Tesla K40","yes",4,16 
+709,"Nested Loop Join","CPU","Intel","Core i5","yes",23,36
+917,"Hash Join","CPU","Intel","Xeon Phi co-processor 5110P","yes",97,25
+918,"Hash Join","CPU","Oracle & Intel & Sun MicroSystems & AMD","Sparc T4 & sandy bridge Xenn E5-4640 : Nehalem Xeon L5520 : sandy bridge Xenon E5-2680 & Sun Niagara 2 UltraSPARC T2 & Bulldozer Opteron 6276","yes",67,27
+920,"Hash Join","CPU","Intel & AMD & Amazon","E5-2695v2 & Opteron 6172 & EC2 c4","yes",19,51
+151,"Hash & Sort-Merge Join","CPU","Intel","Xeon E7-4870 v2","yes",80,21
+630,"Hash Join","CPU(Deeply-Fused ManyCore)",null,null,"yes",0,15
+683,"Hash Join","CPU","Intel","Xeon E5-2650","yes",3,28
+915,"Hash Join","CPU","Intel","Xeon E3-1270 v5","yes",2,14
+6,"Nested(Block) Loop Join","CPU",null,null,"yes",7,41
+131,"Hash Join","CPU" & GPU","Intel & NVIDIA","Xeon E5–2643 & Tesla K20Xm","yes",18,22
+281,"Sort-Merge & Hash Join","CPU","Intel","Xeon E5 2670 & Xeon E5-2695 v4","yes",83,36
+295,"Sort-Merge & Hash Join","CPU & GPU","Intel & NVIDIA","Xeon(E5-2630v3 & E5-2670) & Nvidia(Maxwell Titan X & Kepler Titan)","yes",40,25
+896,"Hash Join","CPU","Intel","Xeon Phi 5110 & Xeon Phi 7210 & Xeon X7560","yes",28,30
+902,"Hash Join","CPU & GPU","Intel & NVIDIA","Core i7-4810MQ & GeForce GTX 980","yes",3,18
+33,"Nested Loop Join(Indexed)","CPU & GPU","Intel & NVIDIA","Core i7-4970 & Titan X","yes",5,17
+262,null,null,null,null,null,0,null
+5,"Sort-Merge Join","FGPA","Xilinx","Zynq ZU3EG MPSoC","yes",9,18
+204,"Hash & Sort Join","CPU",null,null,"yes",17,33
+214,"Sort-Merge & Hash Join","CPU & GPU","Intel & NVIDIA","Core i7-8700K : Xeon E5-2640 v4 & GTX 1080ti","yes",2,28
+216,"Sort-Merge & Hash Join","CPU & GPU","Intel & NVIDIA","E5-2680 v4 : E5-2680 v4 & Tesla K80 : P100","yes",4,50
+625,"Hash Join","CPU","Intel","Xeon E5-2643","yes",5,27
+684,"Hash Join","CPU & GPU","Intel & NVIDIA","Xeon E5-2650 v3 : Xeon Phi 5110P & Tesla K80","yes",2,22
+689,"Nested Loop(Indexed) & Sort-Merge Join","CPU",null,null,"yes",4,24
+865,null,null,null,null,null,0,null
+871,"Hash Join","CPU" & GPU","Intel & NVIDIA","Xeon E5-2650L v3 & Nvidia GTX 1080","yes",35,20
+83,"Hash Join","CPU","Intel","Xeon E5-2680 v4","yes",13,62
+86,"Hash Join","FPGA","Xilinx","Zynq UltraScale ZCU102 (xczu9eg-ffvb1156)","yes",6,17
+142,"Nested-Loop(Block) & Sort-Merge Join","CPU & GPU","Intel & NIVIDIA","Xeon E5-2630V3 & GTX Titan X Pascal : Tesla P100","yes",5,25
+162,null,null,null,null,null,0,null
+665,"Hash Join","CPU","Intel","Xeon Silver 4110","yes",0,13
+836,"Hash Join","GPU & CPU","NVIDIA & Intel","Tesla P100 : Titan Xp : Maxwell60 : Kepler40c & Xeon E5-2640 v4","yes",8,34
+847,"Hash Join","FPGA","Xilinx","Virtex-7","yes",2,16
+110,"Nested loop & Hash Join","GPU","NIVIDA",null,"yes",2,42
+646,"Hash Join","FPGA","Xilinx","UltraScale+ VU37P","yes",14,1
+817,"Hash and Sort-Merge Join","FPGA","Xilinx","Virpaperstex-7(Xilinx Vivado 2019.2)","yes",0,16
+820,"Hash Join","XPU","Intel","GEN9 iGPU & Xeon(R) E-2176G & Iris Xe Max DG1 dGPU","yes",3,13
+15,"Sort-Merge Join","CPU",null,null,"yes",2,14
+67,"Hash Join","FGPA","Intel","Programmable Acceleration Card D5005","yes",1,33
+807,"Hash Join","CPU","Intel","Xeon Gold 5220S","yes",0,38
+100,"Hash Join","CPU" & GPU","Intel & NVIDIA", "Corei7-2600 Sandy Bridge & GeForce GTX 580","yes",195,12
